@@ -8,8 +8,15 @@
 **Address:** 00-844, Poland, Warsaw, Grzybowska, 63-7  
 ************************************
 ## Skills:
-    HTML5
-    CSS3
+* HTML5  
+* CSS3  
 ************************************
 ## Courses:
-In July successfully completed the course "Website development with HTML, CSS & Javascript"
+* IT-Academy "Website development with HTML, CSS & Javascript" (completed)  
+* RS School "JavaScript/Front-end. Stage 0" (in progress)  
+*****************************************************************
+## Languages:
+* Russian - Native  
+* Belarusian - Pre-intermediate
+* English - Intermediate (the level was set with EPAM english test)
+
