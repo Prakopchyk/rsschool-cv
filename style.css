@@ -6,3 +6,4 @@ border: solid pink 10px;}
     padding-top: 60px;}
 .content{clear: both;
     padding-top: 10px;}
+.content h2{border-bottom: solid pink 5px;}
