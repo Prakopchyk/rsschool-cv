@@ -1,0 +1,8 @@
+body{background-color: peachpuff;}
+h1{margin: 5px;}
+.header img{float:left;
+border: solid pink 10px;}
+.introduction{padding-left: 380px;
+    padding-top: 60px;}
+.content{clear: both;
+    padding-top: 10px;}
