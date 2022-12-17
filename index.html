@@ -2,45 +2,98 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV&num;2.HTML,CSS&amp;GIT</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV&num;3</title>
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="header"><img src="image.jpg" title="portrait" alt="there is my portrait" width="350" height="400">
-        <div class="introduction">
-            <h1>Katsiaryna Prakopchyk</h1>
-            <h2>Junior Frontend Developer</h2>
-            <hr>
-            <h2>Contact information:</h2>
-            <ul>
-                <li><b>Phone:</b> +48516509354</li>
-                <li><b>Email:</b> prokopchike@gmail.com</li>
-                <li><b>Address:</b> 00-844, Poland, Warsaw, Grzybowska, 63-7</li>
-            </ul>
-        </div>
-    </div>
-    <div class="content">
-        <h2>Skills:</h2>
-        <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-        </ul>
-        <h2>Courses:</h2>
-        <ul>
-            <li>IT-Academy "Website development with HTML, CSS &amp; Javascript" (completed)</li>
-            <li>RS School "JavaScript/Front-end. Stage 0" (in progress)</li>
-        </ul>
-        <h2>Languages:</h2>
-        <ul>
-            <li>Russian - Native</li>
-            <li>Belarusian - Pre-intermediate</li>
-            <li>English - Intermediate (the level was set with EPAM english test)</li>
-        </ul>
-    </div>
+  <div class="wrapper">
+    <header class="header-wrapper">
+      <img src="assets/image.jpg" title="portrait" alt="there is my portrait" width="250" height="286">
+      <!-- <div class="introduction"> -->
+      <h1>Katsiaryna Prakopchyk</h1>
+      <h2>Junior Frontend Developer (Beginner)</h2>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#contacts">Contact details</a>
+        </li>
+        <li>
+          <a href="#aboutme">About me</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#courses">Courses</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#languages">Languages</a>
+        </li>
+        <li>
+          <a href="#codeexample">Code example</a>
+        </li>
+      </ul>
+    </nav>
+    <!--Main part-->
+    <main class="main-wrapper">
+      <h2 id="contacts">Contact details:</h2>
+      <ul>
+        <li><b>Phone:</b> +48516509354</li>
+        <li><b>Email:</b> prokopchike@gmail.com</li>
+        <li><b>Address:</b> 00-844, Poland, Warsaw, Grzybowska, 63-7</li>
+      </ul>
+      <h2 id="aboutme">About me</h2>
+      <p>I'm Kate. I'm Belarusian, living in Warsaw. In Belarus I'd been succeed in Economics. This year I've
+        decided to broaden out my technical skills. I've been studing Front-End for last eight monthes now and
+        can say that I like it.</p>
+      <h2 id="skills">Skills:</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+      </ul>
+      <h2 id="courses">Courses:</h2>
+      <ul>
+        <li>IT-Academy "Website development with HTML, CSS &amp; Javascript" (completed)</li>
+        <li>Code Basics "HTML basics" (completed)</li>
+        <li>Code Basics "CSS basics" (completed)</li>
+        <li>RS School "JavaScript/Front-End. Stage 0" (in progress)</li>
+      </ul>
+      <h2 id="education">Education:</h2>
+      <ul>
+        <li>Belarusian State Technological University</li>
+        <li>Academy of Public Administration under the President of the Republic of Belarus</li>
+      </ul>
+      <h2 id="languages">Languages:</h2>
+      <ul>
+        <li>Belarusian - Native</li>
+        <li>Russian - C2</li>
+        <li>English - B1/B2 (B2 Upper-intermediate in progress)</li>
+      </ul>
+      <h2 id="codeexample">Code example (from Codewars):</h2>
+      <pre>
+        <code>
+    <span class="violet">function</span><span class="mustard"> rectangleRotation</span>(a, b) &lcub;
+      <span>&sol;&sol; coding and coding..</span> 
+    &rcub;
+        </code>
+      </pre>
+    </main>
+    <!-- Foooooter -->
+    <footer>
+      <span>2022</span>
+      <a href="https://github.com/Prakopchyk/">Katsiaryna Prakopchyk</a>
+      <a href="https://rs.school/js/" target="_blank"><img src="assets/rs_school_js.svg" alt="logo" width="100"
+          height="25"></a>
+    </footer>
+  </div>
 </body>
 
 </html>
